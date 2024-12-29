@@ -15,3 +15,5 @@ Bienvenue à SkinBot documentation!
 
    Documentation/Scripts/1_Introduction.rst
    Documentation/Scripts/2_Loading_treatment.rst
+   Documentation/Scripts/3_Extraction_Vectorisation .rst
+   Documentation/Scripts/4_Chatbot_RAG_Streamlit.rst
