@@ -1,5 +1,5 @@
-III. Ingestion des documents dans une base vectorielle:
-=======================================================
+III. Ingestion dans une base vectorielle:
+=====================================================
 
 Cce module couvre les étapes de préparation et d’ingestion des documents pour les rendre accessibles dans une base vectorielle. Il fait partie de la phase de **Récupération** (Retrieval) dans le processus RAG.
 
