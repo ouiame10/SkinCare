@@ -3,7 +3,7 @@ IV. Implémentation d'un Chatbot RAG avec Streamlit
 
 Ce module implémente un **Chatbot RAG** (Retrieval-Augmented Generation) utilisant **Streamlit** comme interface utilisateur. Le chatbot peut répondre aux questions des utilisateurs en s’appuyant sur des fichiers PDF téléchargés ou une base de vecteurs existante. Ce script couvre les étapes de **Récupération (Retrieval)** et **Génération (Generation)** du processus RAG.
 
-5.1 Lecture des Documents PDF
+4.1 Lecture des Documents PDF
 -----------------------------
 
 Cette partie du code utilise `PyPDF2` pour extraire le texte d’un fichier PDF téléchargé par l'utilisateur.
@@ -23,7 +23,7 @@ Cette partie du code utilise `PyPDF2` pour extraire le texte d’un fichier PDF 
 
 ---
 
-5.2 Recherche dans la Base Vectorielle
+4.2 Recherche dans la Base Vectorielle
 --------------------------------------
 
 La fonction `retrieve_from_db` interroge une base vectorielle existante pour trouver les informations pertinentes en fonction de la question posée.
@@ -57,7 +57,7 @@ La fonction `retrieve_from_db` interroge une base vectorielle existante pour tro
 
 ---
 
-5.3 Récupération et Segmentation Locale
+4.3 Récupération et Segmentation Locale
 ---------------------------------------
 
 La fonction `retriever` permet de segmenter les documents téléchargés localement en chunks avant de les intégrer dans une base vectorielle temporaire pour effectuer une recherche.
@@ -99,7 +99,7 @@ La fonction `retriever` permet de segmenter les documents téléchargés localem
 
 ---
 
-5.4 Interface Utilisateur avec Streamlit
+4.4 Interface Utilisateur avec Streamlit
 ----------------------------------------
 
 Cette section configure l'interface utilisateur via **Streamlit**. Elle permet aux utilisateurs de télécharger un fichier PDF ou de poser une question directement.
