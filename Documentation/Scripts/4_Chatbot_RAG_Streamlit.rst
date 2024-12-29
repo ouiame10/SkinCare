@@ -1,4 +1,4 @@
-5. Implémentation d'un Chatbot RAG avec Streamlit
+IV. Implémentation d'un Chatbot RAG avec Streamlit
 =================================================
 
 Ce module implémente un **Chatbot RAG** (Retrieval-Augmented Generation) utilisant **Streamlit** comme interface utilisateur. Le chatbot peut répondre aux questions des utilisateurs en s’appuyant sur des fichiers PDF téléchargés ou une base de vecteurs existante. Ce script couvre les étapes de **Récupération (Retrieval)** et **Génération (Generation)** du processus RAG.
