@@ -1,4 +1,4 @@
- II. Prétraitement des données
+II. Prétraitement des données :
 =============================
 
 2.1 Importation et traitement des données
