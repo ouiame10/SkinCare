@@ -6,7 +6,7 @@
 # -- Project information -----------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#project-information
 
-project = 'Textra'
+project = 'SkinCareBot'
 copyright = '2024, GIIA'
 author = 'GIIA'
 
