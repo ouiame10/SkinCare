@@ -1,12 +1,12 @@
  II.Prétraitement des données
 =============================
 
-3.1 Importation et traitement des données
+2.1 Importation et traitement des données
 -----------------------------------------
 
 Ce script est utilisé pour automatiser le nettoyage des fichiers CSV dans un dossier. Il permet de préparer les données brutes à l'analyse en effectuant plusieurs opérations de nettoyage et de transformation. Chaque fichier nettoyé est sauvegardé dans un dossier de sortie.
 
-3.1.1 Étapes principales
+2.1.1 Étapes principales
 ------------------------
 
 - Charger les fichiers CSV depuis un dossier spécifié.
@@ -18,7 +18,7 @@ Ce script est utilisé pour automatiser le nettoyage des fichiers CSV dans un do
 - Supprimer les colonnes inutiles comme `id` (si présentes).
 - Sauvegarder les fichiers nettoyés dans un dossier spécifique.
 
-3.1.2 Installer les bibliothèques nécessaires
+2.1.2 Installer les bibliothèques nécessaires
 ---------------------------------------------
 
 Assurez-vous que les bibliothèques nécessaires sont installées avant d'exécuter le script.
@@ -29,7 +29,7 @@ Assurez-vous que les bibliothèques nécessaires sont installées avant d'exécu
     import pandas as pd
     import numpy as np
 
-3.1.3 Code principal
+2.1.3 Code principal
 --------------------
 
 Le code ci-dessous effectue les étapes mentionnées ci-dessus :
@@ -53,7 +53,7 @@ Le code ci-dessous effectue les étapes mentionnées ci-dessus :
                 # Étapes de nettoyage (voir explications ci-dessus)
                 ...
 
-3.1.4 Résultats et sortie
+2.1.4 Résultats et sortie
 -------------------------
 
 - Les fichiers nettoyés sont sauvegardés dans : `/content/drive/MyDrive/DATASETS/cleaned`.
@@ -61,7 +61,7 @@ Le code ci-dessous effectue les étapes mentionnées ci-dessus :
 6. Conversion d'un fichier CSV en un catalogue PDF
 --------------------------------------------------
 
-3.2 Importation et traitement des données
+2.2 Importation et traitement des données
 
 Ce script permet de transformer un fichier CSV contenant des informations sur des produits en un fichier PDF structuré et lisible. Il est utile pour générer des catalogues de produits ou des rapports détaillés. Les étapes principales incluent :
 
