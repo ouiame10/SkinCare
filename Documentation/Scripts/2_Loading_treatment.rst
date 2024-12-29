@@ -58,11 +58,9 @@ Le code ci-dessous effectue les étapes mentionnées ci-dessus :
 
 - Les fichiers nettoyés sont sauvegardés dans : `/content/drive/MyDrive/DATASETS/cleaned`.
 - Chaque fichier est prétraité pour garantir des données propres et prêtes à l'analyse.
-6. Conversion d'un fichier CSV en un catalogue PDF
---------------------------------------------------
 
 2.2 Importation et traitement des données
-
+------------------------------------------
 Ce script permet de transformer un fichier CSV contenant des informations sur des produits en un fichier PDF structuré et lisible. Il est utile pour générer des catalogues de produits ou des rapports détaillés. Les étapes principales incluent :
 
 - **Charement des données CSV :** Lecture du fichier CSV contenant les informations des produits.
