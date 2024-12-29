@@ -10,6 +10,11 @@ I.Introduction:
 
 
 
+
+
+
+
+
 **SkinCareBot** est un projet qui vise à transformer l'expérience utilisateur dans le domaine des soins de la peau. Ce chatbot intelligent utilise des modèles de langage de grande envergure (LLM) et la méthode Retrieval-Augmented Generation (RAG) pour offrir des recommandations personnalisées et pertinentes sur les produits cosmétiques. 
 
 La finalité principale de SkinCareBot et de rendre les conseils de soins accessibles.
